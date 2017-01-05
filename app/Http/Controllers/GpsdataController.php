@@ -13,6 +13,7 @@ class GpsdataController extends Controller{
  
     public function index(){
  
+ 
         $gpsdata  = Gpsdata::all();
  
         return response()->json($gpsdata);
