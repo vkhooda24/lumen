@@ -6,13 +6,12 @@ use App\Gpsdata;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use DB;
- 
+
  
 class GpsdataController extends Controller{
  
  
     public function index(){
- 
  
         $gpsdata  = Gpsdata::all();
  
