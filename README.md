@@ -9,6 +9,7 @@ Read more about Valet :https://laravel.com/docs/5.3/valet
 Installation Valet : https://laravel.com/docs/5.3/valet#installation
 
 Setup phpMyAdmin: 
+
 1.Download phpmyadmin from https://www.phpmyadmin.net/
 2.Unzip file and paste it in valet park folder i.e any directory which set park using valet park foldername.
 3.Open in browser using phpmyadmin.vk vk is domain name which set by valet.
@@ -29,6 +30,7 @@ SHOW VARIABLES WHERE Variable_name = 'port'; // show port number phpmyadmin usin
 SHOW VARIABLES WHERE Variable_name = 'hostname';//show hostname phpmyadmin using
 
 Commonly use terminal command on MAC:
+
 1. Print Path using terminal: 
 echo $PATH
 
